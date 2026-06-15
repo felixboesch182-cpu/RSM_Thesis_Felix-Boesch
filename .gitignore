@@ -1,0 +1,49 @@
+# ---------------------------------------------------------------------------
+# Data is NOT tracked in this repository.
+# Crunchbase exports are licensed/proprietary and are shared separately.
+# All derived datasets and large binary artifacts are excluded as well.
+# ---------------------------------------------------------------------------
+
+# Tabular / serialized data
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.json
+*.jsonl
+*.ndjson
+
+# Compressed / binary blobs
+*.gz
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.npz
+*.npy
+*.bin
+*.pkl
+*.pickle
+*.mmap
+*.memmap
+
+# Models / embeddings
+*.pt
+*.safetensors
+
+# Notebook + Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Scratch
+_writetest.tmp
+
+# Rendered previews / session artifacts
+*.html
+.Rhistory
