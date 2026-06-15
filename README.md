@@ -1,7 +1,7 @@
 # Thesis — Code
 
 Code for the master's thesis *"Beyond Patent Counts: Using Natural Language Processing to
-Predict Startup Financing and Exit Outcomes in Europe"* (Felix Boesch). The pipeline links
+Predict Startup Success in Europe"* (Felix Boesch). The pipeline links
 European startups (Crunchbase) to their patents (Lens.org), derives NLP-based **novelty** and
 **competitive-density** features from patent text using PaECTER embeddings, and tests whether
 these add predictive value over traditional OECD patent-quality indicators for funding and exit
