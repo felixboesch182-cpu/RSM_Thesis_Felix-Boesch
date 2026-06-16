@@ -16,8 +16,7 @@ Pre-computed PaECTER embeddings (MPG Edmond repository):
 |---|---|
 | `EPO_PaECTER_embeddings.parquet` | PaECTER embeddings for EPO patent families |
 | `USPTO_PaECTER_embeddings.parquet` | PaECTER embeddings for USPTO patent families |
-| `patent_features_base.parquet` | Focal-sample embeddings + priority dates |
 
-First used by Stage 05 notebooks `01`, `03`, `04`, `06`, `10`. The model itself
+First used by Stage 05 notebooks `01`, `03`, `04`. The model itself
 (`mpi-inno-comp/paecter`) is downloaded from Hugging Face on first use; only the pre-computed
 embedding tables above need to be placed here manually.

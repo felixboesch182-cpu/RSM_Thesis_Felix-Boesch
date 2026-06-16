@@ -85,8 +85,7 @@ Organised into subfolders by source:
 data/raw/
 ├── crunchbase/    startup_sample_crunchbase_export.csv, funding_rounds_crunchbase_export.csv
 ├── lens/          *.jsonl[.gz]  (Lens patent export batches)
-├── embeddings/    EPO_PaECTER_embeddings.parquet, USPTO_PaECTER_embeddings.parquet,
-│                  patent_features_base.parquet
+├── embeddings/    EPO_PaECTER_embeddings.parquet, USPTO_PaECTER_embeddings.parquet
 ├── bigquery/      family_dates.parquet, bq-results-*.csv  (publication↔family exports)
 ├── oecd/          202602_OECD_PATENT_QUALITY_EPO_INDIC.7z, …_USPTO_INDIC.7z
 └── benchmarks/    most_sim.zip (Whalen et al. 2020), kelly_matched.parquet (Kelly et al. 2021)
@@ -105,7 +104,7 @@ data/raw/
 |---|---|---|---|
 | `crunchbase/` | company + funding-round exports | Crunchbase | `02_matching_crunchbase_data` |
 | `lens/` | `*.jsonl[.gz]` patent batches | Lens.org | `03_lens_query_and_ingestion`, `04_startup_patent_matching` |
-| `embeddings/` | `EPO_PaECTER_embeddings.parquet`, `USPTO_PaECTER_embeddings.parquet` (MPI), `patent_features_base.parquet` (focal embeddings + priority dates) | PaECTER (MPI) — [download](https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.BGRPMI) | `05` (01 / 03 / 04 / 06 / 10) |
+| `embeddings/` | `EPO_PaECTER_embeddings.parquet`, `USPTO_PaECTER_embeddings.parquet` (MPI) | PaECTER (MPI) — [download](https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.BGRPMI) | `05` (01 / 03 / 04) |
 | `bigquery/` | `family_dates.parquet`, `bq-results-*.csv` (the OECD bridge and the Kelly bridge with `publication_number` + `family_id`) | BigQuery | `05` (04 / 07 / 12) |
 | `oecd/` | OECD Patent Quality Indicator archives (`.7z`) | OECD | `05` (07) |
 | `benchmarks/` | `most_sim.zip`, `kelly_matched.parquet` | Whalen et al. 2020; Kelly et al. 2021 | `05` (09 / 12) |
