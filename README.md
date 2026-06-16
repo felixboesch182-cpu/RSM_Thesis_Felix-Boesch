@@ -97,6 +97,10 @@ data/raw/
 > pipeline. Download them from the MPG Edmond repository and place them in that folder:
 > <https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.BGRPMI>
 
+> **Licensed data (Crunchbase & Lens.org)** — the `data/raw/crunchbase/` and `data/raw/lens/`
+> files are licensed and cannot be redistributed in this repository. Request them from the
+> repository owner, or obtain equivalent exports under your own Crunchbase / Lens.org licence.
+
 | Subfolder | Contents | Source | First used by |
 |---|---|---|---|
 | `crunchbase/` | company + funding-round exports | Crunchbase | `02_matching_crunchbase_data` |
